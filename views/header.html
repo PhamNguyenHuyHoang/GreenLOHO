@@ -1,0 +1,167 @@
+<!-- ==================================================================================== WP-HEADER ====================================================================================== -->
+<header id="wp-header">
+    <!-- ===================================== TOP-BAR =================================== -->
+    <div class="top-bar"></div>
+    <!-- end top-bar -->
+    <!-- ===================================== LOGO-BAR =================================== -->
+    <div class="container">
+        <div id="logo-bar" class="d-flex jc-between">
+            <div class="follow-icon">
+                <ul id="list-socials" class="d-flex">
+                    <li>
+                        <a href=""><i class="fab fa-facebook-f"></i></a>
+                    </li>
+                    <li class="">
+                        <a href=""><i class="fab fa-instagram"></i></a>
+                    </li>
+                    <li>
+                        <a href=""><i class="fa-brands fa-youtube"></i></a>
+                    </li>
+                    <li>
+                        <a href=""><i class="fab fa-pinterest-square"></i></a>
+                    </li>
+                </ul>
+            </div>
+            <!-- end follow-icon -->
+
+            <div class="logo">
+                <a href="./index.html">
+                    <img src="assets/images/logo.png" alt="">
+                </a>
+            </div>
+            <!-- end logo -->
+			<div>
+				<form id="search">
+					<input type="text" class="search-txt" placeholder="Tìm kiếm sản phẩm">
+					<button class="icon-search">
+						<i class="fas fa-search"></i>
+					</button>
+				</form>
+				<!-- end form search -->
+	
+				<a id="cart-icon" href="checkout-cart.html">
+					<i class="fa" style="font-size:24px">&#xf07a;</i>
+					<span class='badge badge-warning' id='lblCartCount'>0</span>
+					<script>
+						$("#lblCartCount").html(getCart().length.toString());
+					</script>
+				</a>
+			</div>
+
+        </div>
+        <!-- end logo-bar -->
+
+    </div>
+
+    <!-- ============================= MAIN-MENU AND FORM LOGIN =========================== -->
+    <div class="container">
+        <nav class="d-flex jc-between">
+            <ul id="main-menu" class="d-flex">
+                <li><a href="index.html">Trang chủ</a></li>
+                <li><a href="./introduction.html">Giới thiệu</a></li>
+                <li><a href="./products.html">Sản phẩm</a>
+                    <ul class="sub-menu">
+                        <li><a href="./products.html">Trang trí nhà</a>
+                            <ul class="sub-menu">
+                                <li>
+                                    <a href="./products.html">Đồng hồ treo tường</a>
+                                </li>
+                                <li><a href="./products.html">Lọ hoa</a></li>
+                                <li><a href="./products.html">Vỏ gối sofa</a></li>
+                                <li><a href="./products.html">Gốm sứ trang trí</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="./products.html">Đồ trang trí tường</a>
+                            <ul class="sub-menu">
+                                <li><a href="./products.html">Đồng hồ treo tường</a></li>
+                                <li><a href="./products.html">Tranh dán tường (Decal)</a></li>
+                                <li><a href="./products.html">Gương trang trí</a></li>
+                                <li><a href="./products.html">Khung ảnh</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="./products.html">Đồ gia dụng và bếp</a>
+                            <ul class="sub-menu">
+                                <li><a href="./products.html">Hộp đựng giấy</a></li>
+                                <li><a href="./products.html">Kệ treo tường & Móc treo</a></li>
+                                <li><a href="./products.html">Khăn trải bàn</a></li>
+                                <li><a href="./products.html">Lọ đựng gia vị bếp</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="./products.html">Theo chủ đề</a>
+                            <ul class="sub-menu">
+                                <li><a href="./products.html">Chủ đề Châu Âu</a></li>
+                                <li><a href="./products.html">Chủ đề hiện đại</a></li>
+                                <li><a href="./products.html">Chủ đề thiên nhiên</a></li>
+                                <li><a href="./products.html">Chủ đề Vintage</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+
+
+
+                <li><a href="./products.html">Trang trí nhà</a>
+                    <ul class="sub-menu">
+                        <li><a href="./products.html">Phòng khách</a>
+
+                        </li>
+                        <li><a href="./products.html">Phòng tắm</a>
+
+                        </li>
+                        <li><a href="./products.html">Nhà bếp</a>
+
+                        </li>
+                        <li><a href="./products.html">Phòng đọc sách</a>
+
+                        </li>
+                        <li><a href="./products.html">Phòng ngủ</a>
+
+                        </li>
+                    </ul>
+                </li>
+                <li><a href="./trend-news.html">Xu hướng</a>
+                    <ul class="sub-menu">
+                        <li><a href="./trend-news.html">Xu hướng trang trí nhà năm 2022</a>
+                            <ul class="sub-menu">
+                                <li><a href="./trend-news.html">Tiết kiệm không gian sống và làm việc</a></li>
+                                <li><a href="./trend-news.html">Kết hợp hiện đại với cổ điển</a></li>
+                                <li><a href="./trend-news.html">Không gian thân thiện với thú cưng</a></li>
+                                <li><a href="./trend-news.html">Không gian xanh - thân thiện với thiên nhiên</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="./trend-news.html">Xu hướng thiết kế theo màu sắc</a>
+                            <ul class="sub-menu">
+                                <li><a href="./trend-news.html">Trắng, đen và xám</a></li>
+                                <li><a href="./trend-news.html">Sắc xanh</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="./trend-news.html">Xu hướng thiết kế theo hình dạng</a>
+                            <ul class="sub-menu">
+                                <li><a href="./trend-news.html">Đường cong và đường tròn</a></li>
+                                <li><a href="./trend-news.html">Góc cạnh - tam giác</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="./trend-news.html">Xu hướng thiết kế theo chủ đề</a>
+                            <ul class="sub-menu">
+                                <li><a href="./trend-news.html">Châu Âu</a></li>
+                                <li><a href="./trend-news.html">Cổ điển</a></li>
+                                <li><a href="./trend-news.html">Hiện đại - công nghệ</a></li>
+                                <li><a href="./trend-news.html">Noel</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li><a href="./sitemap.html">Sitemap</a></li>
+                <li><a href="./contact.html">Liên hệ</a></li>
+            </ul>
+            <!-- end main-menu -->
+
+            <div class="account">
+                <a href="login.html" class="login">Đăng nhập</a>
+                <a href="register.html" class="regis">Đăng ký</a>
+            </div>
+            <!-- end account -->
+        </nav>
+    </div>
+</header>
+<!-- end wp-header -->
